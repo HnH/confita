@@ -5,8 +5,8 @@ import (
 	"path"
 	"strings"
 
+	"github.com/HnH/confita/backend"
 	"github.com/hashicorp/consul/api"
-	"github.com/heetch/confita/backend"
 )
 
 // Backend loads keys from Consul.

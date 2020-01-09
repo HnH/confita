@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/heetch/confita"
-	"github.com/heetch/confita/backend"
+	"github.com/HnH/confita"
+	"github.com/HnH/confita/backend"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -190,13 +190,13 @@ func TestLoadIgnored(t *testing.T) {
 
 func TestLoadFirstBackendWins(t *testing.T) {
 	s := struct {
-		Age  int    `config:"age"`
+		Age int `config:"age"`
 	}{}
 
 	st1 := store{
-		"age":  "10",
+		"age": "10",
 	}
-	st2 := store {
+	st2 := store{
 		"age": "77",
 	}
 

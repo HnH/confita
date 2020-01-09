@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/ssm"
 	"github.com/aws/aws-sdk-go/service/ssm/ssmiface"
 
-	"github.com/heetch/confita/backend"
+	"github.com/HnH/confita/backend"
 )
 
 type ssmBackend struct {

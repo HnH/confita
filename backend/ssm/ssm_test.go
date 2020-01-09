@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/HnH/confita/backend"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/service/ssm"
 	"github.com/aws/aws-sdk-go/service/ssm/ssmiface"
-	"github.com/heetch/confita/backend"
 	"github.com/stretchr/testify/require"
 )
 

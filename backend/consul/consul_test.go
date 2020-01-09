@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/HnH/confita/backend"
 	"github.com/hashicorp/consul/api"
-	"github.com/heetch/confita/backend"
 	"github.com/stretchr/testify/require"
 )
 

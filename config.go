@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/heetch/confita/backend"
-	"github.com/heetch/confita/backend/env"
+	"github.com/HnH/confita/backend"
+	"github.com/HnH/confita/backend/env"
 )
 
 // Loader loads configuration keys from backends and stores them is a struct.

@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/heetch/confita/backend"
+	"github.com/HnH/confita/backend"
 )
 
 // NewBackend creates a configuration loader that loads from the environment.

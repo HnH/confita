@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 
 	"github.com/BurntSushi/toml"
-	"github.com/heetch/confita/backend"
+	"github.com/HnH/confita/backend"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 )
